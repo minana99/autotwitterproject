@@ -1,0 +1,17 @@
+.p-tweet-form {
+  margin-bottom: $space-6l;
+  &__textarea {
+    width: 100%;
+    height: $font-size-base * 10;
+    margin-bottom: $space-m;
+    padding: $space-m;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    letter-spacing: 0.1rem;
+  }
+  &__count {
+    text-align: right;
+    // margin-bottom: $space-m;
+  }
+}
