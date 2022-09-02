@@ -2845,16 +2845,11 @@ __webpack_require__.r(__webpack_exports__);
       // 予約済みツイート
       this.content = this.tweet.content;
       var date = moment__WEBPACK_IMPORTED_MODULE_0___default()(this.tweet.submit_date);
-      this.requestDate.year(date.year()).month(date.month()).date(date.date()).hour(date.hour()).minute(date.minute()); // this.requestDate = moment(this.tweet.submit_date).format(
-      //   "YYYY-MM-DD HH:mm:ss"
-      // );
-
+      this.requestDate.year(date.year()).month(date.month()).date(date.date()).hour(date.hour()).minute(date.minute());
       this.id = this.tweet.id;
     } else {
       // 新規
-      this.requestDate.add(1, "days"); // this.requestDate = moment()
-      //   .add(1, "days")
-      //   .format("YYYY-MM-DD HH:mm:ss");
+      this.requestDate.add(1, "days");
     }
   },
   methods: {
@@ -3297,18 +3292,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var core_js_modules_es6_regexp_match__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es6.regexp.match */ "./node_modules/core-js/modules/es6.regexp.match.js");
 /* harmony import */ var core_js_modules_es6_regexp_match__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_regexp_match__WEBPACK_IMPORTED_MODULE_0__);
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
